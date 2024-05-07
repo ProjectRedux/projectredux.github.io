@@ -8,15 +8,15 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 1601px;
-  height: 920px;
-  margin: -180px auto 0 87px;
+  width: 1321px;
+  height: 701px;
+  margin: 0 auto 0 220px;
 }
 
 .u-section-1 .u-image-2 {
   width: 500px;
   height: 300px;
-  margin: -701px auto 0;
+  margin: -662px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -38,49 +38,37 @@
   }
 
   .u-section-1 .u-image-1 {
+    inset: auto;
     width: 940px;
-    height: 540px;
-    margin-top: -77px;
-    margin-left: -31px;
+    height: 499px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -442px;
-    margin-right: 231px;
+    margin-top: -460px;
   }
 
   .u-section-1 .u-btn-1 {
     font-size: 2.5rem;
-    margin-top: 124px;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    background-position: 0% 36.24%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 343px;
   }
 
   .u-section-1 .u-image-1 {
     width: 720px;
-    height: 414px;
-    margin-left: 0;
+    height: 382px;
   }
 
   .u-section-1 .u-image-2 {
-    width: 291px;
-    height: 169px;
-    margin-top: 29px;
-    margin-right: auto;
+    margin-top: -343px;
   }
 
   .u-section-1 .u-btn-1 {
     font-size: 1.25rem;
-    margin-top: 16px;
-    margin-bottom: 50px;
   }
 }
 
@@ -91,22 +79,28 @@
 
   .u-section-1 .u-image-1 {
     width: 540px;
-    height: 311px;
+    height: 287px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -248px;
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    background-position: 13.78% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 29px;
   }
 
   .u-section-1 .u-image-1 {
     width: 340px;
-    height: 196px;
+    height: 181px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 204px;
+    margin-top: -142px;
   }
 }
 
@@ -222,7 +216,8 @@
 }
 
 .u-section-3 .u-list-1 {
-  margin: 22px 0 60px;
+  margin-top: 22px;
+  margin-bottom: 60px;
 }
 
 .u-section-3 .u-repeater-1 {
@@ -412,8 +407,6 @@
   .u-section-3 .u-list-1 {
     margin-top: 28px;
     margin-bottom: 49px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -603,8 +596,6 @@
   .u-section-3 .u-list-1 {
     margin-top: 22px;
     margin-bottom: 33px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
