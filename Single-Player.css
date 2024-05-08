@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/3-Splatoon_2024-05-05_23-50-27.png');
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -30,10 +31,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 660px;
   }
@@ -81,13 +78,13 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 2.25rem;
     margin-top: 87px;
     margin-right: -50px;
     margin-left: -22px;
   }
 
   .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
     margin-top: 25px;
     margin-left: -22px;
     margin-right: -22px;
@@ -303,6 +300,7 @@
   margin-bottom: 60px;
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/3-Splatoon_2024-05-08_00-42-37.png');
+  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -323,10 +321,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-4 {
-    background-position: 50% 50%;
-  }
-
   .u-section-4 .u-sheet-1 {
     min-height: 281px;
   }
@@ -422,13 +416,22 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-5 {
+    min-height: 397px;
+  }
+
   .u-section-5 .u-text-1 {
     font-size: 1.875rem;
-    margin-left: calc(((100% - 340px) / 2));
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .u-section-5 .u-text-2 {
-    margin-left: calc(((100% - 340px) / 2) + 56px);
+    width: 321px;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-bottom: 47px;
   }
 } .u-section-6 {
   background-image: none;
@@ -644,8 +647,16 @@
     margin-left: calc(((100% - 340px) / 2));
   }
 
+  .u-section-6 .u-layout-cell-1 {
+    min-height: 233px;
+  }
+
   .u-section-6 .u-text-1 {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 0;
+    margin-left: -1px;
+    margin-right: -1px;
   }
 
   .u-section-6 .u-image-1 {
@@ -656,8 +667,21 @@
     min-height: 192px;
   }
 
+  .u-section-6 .u-layout-cell-4 {
+    min-height: 328px;
+  }
+
+  .u-section-6 .u-container-layout-4 {
+    padding-top: 111px;
+    padding-bottom: 111px;
+  }
+
   .u-section-6 .u-text-2 {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: 0;
+    margin-right: -12px;
+    margin-left: 8px;
   }
 
   .u-section-6 .u-text-3 {
