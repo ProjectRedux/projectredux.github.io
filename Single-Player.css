@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/3-Splatoon_2024-05-05_23-50-27.png');
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -31,6 +30,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 660px;
   }
@@ -81,6 +84,7 @@
     margin-top: 87px;
     margin-right: -50px;
     margin-left: -22px;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-text-2 {
@@ -300,7 +304,6 @@
   margin-bottom: 60px;
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/3-Splatoon_2024-05-08_00-42-37.png');
-  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
@@ -321,6 +324,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-4 {
+    background-position: 50% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
     min-height: 281px;
   }
@@ -456,7 +463,7 @@
 
 .u-section-6 .u-text-1 {
   font-family: Splatfont;
-  font-size: 3rem;
+  font-size: 1.875rem;
   transition-duration: 0.5s;
   text-shadow: -2px 2px 8px rgba(0,0,0,1);
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
@@ -510,7 +517,7 @@
 
 .u-section-6 .u-text-2 {
   font-family: Splatfont;
-  font-size: 3rem;
+  font-size: 1.875rem;
   transition-duration: 0.5s;
   text-shadow: -2px 2px 8px rgba(0,0,0,1);
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
@@ -652,7 +659,6 @@
   }
 
   .u-section-6 .u-text-1 {
-    font-size: 1.875rem;
     width: auto;
     margin-top: 0;
     margin-left: -1px;
@@ -677,7 +683,6 @@
   }
 
   .u-section-6 .u-text-2 {
-    font-size: 1.875rem;
     width: auto;
     margin-top: 0;
     margin-right: -12px;
