@@ -399,7 +399,7 @@
 }
 
 .u-section-2 .u-text-20 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   margin: 38px 34px 0;
@@ -424,7 +424,7 @@
 }
 
 .u-section-2 .u-text-22 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   margin: 45px 0 0;
@@ -535,7 +535,6 @@
   }
 
   .u-section-2 .u-text-20 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 29px;
     margin-left: 21px;
@@ -547,7 +546,6 @@
   }
 
   .u-section-2 .u-text-22 {
-    font-size: 1.25rem;
     width: auto;
     margin-top: 41px;
     margin-left: 19px;
@@ -571,7 +569,7 @@
 
 @media (max-width: 991px) {
    .u-section-2 {
-    min-height: 2787px;
+    min-height: 3328px;
   }
 
   .u-section-2 .u-text-1 {
@@ -610,33 +608,47 @@
 
   .u-section-2 .u-layout-wrap-2 {
     width: 720px;
-    margin-left: calc(((100% - 720px) / 2));
+    margin-top: 97px;
+    margin-left: auto;
   }
 
   .u-section-2 .u-image-4 {
-    min-height: 210px;
+    min-height: 750px;
   }
 
   .u-section-2 .u-layout-cell-8 {
-    min-height: 583px;
+    min-height: 750px;
+  }
+
+  .u-section-2 .u-text-19 {
+    width: auto;
+    margin-top: 35px;
+    margin-left: -3px;
   }
 
   .u-section-2 .u-text-20 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 33px;
+    margin-left: 22px;
+    margin-right: 22px;
   }
 
   .u-section-2 .u-layout-cell-9 {
-    min-height: 567px;
+    min-height: 698px;
   }
 
   .u-section-2 .u-text-22 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .u-section-2 .u-image-5 {
-    min-height: 207px;
+    min-height: 698px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-top: -1px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-23 {
@@ -646,12 +658,14 @@
 
 @media (max-width: 767px) {
    .u-section-2 {
-    min-height: 5353px;
+    min-height: 5355px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-left: calc(((100% - 540px) / 2));
-    margin-right: calc(((100% - 540px) / 2));
+    width: auto;
+    margin-top: -12px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .u-section-2 .u-text-2 {
@@ -661,7 +675,7 @@
 
   .u-section-2 .u-layout-wrap-1 {
     width: 540px;
-    margin-top: -9px;
+    margin-top: 21px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -765,7 +779,7 @@
   }
 
   .u-section-2 .u-image-4 {
-    min-height: 315px;
+    min-height: 1125px;
   }
 
   .u-section-2 .u-layout-cell-8 {
@@ -773,14 +787,12 @@
   }
 
   .u-section-2 .u-text-19 {
-    width: auto;
     margin-top: 20px;
     margin-right: 1px;
     margin-left: -2px;
   }
 
   .u-section-2 .u-text-20 {
-    font-size: 1.5rem;
     margin-top: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -791,14 +803,13 @@
   }
 
   .u-section-2 .u-text-22 {
-    font-size: 1.5rem;
     margin-top: 29px;
     margin-left: 16px;
     margin-right: 16px;
   }
 
   .u-section-2 .u-image-5 {
-    min-height: 311px;
+    min-height: 1047px;
   }
 
   .u-section-2 .u-text-23 {
@@ -1405,7 +1416,7 @@
 }
 
 .u-section-3 .u-text-2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   margin: 55px 60px 0;
@@ -1613,12 +1624,13 @@
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 376px;
   }
 
   .u-section-3 .u-text-2 {
-    margin-right: 0;
-    margin-left: 0;
+    margin-top: 14px;
+    margin-right: 25px;
+    margin-left: 14px;
   }
 
   .u-section-3 .u-list-1 {
@@ -1648,6 +1660,10 @@
   .u-section-3 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-3 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
   .u-section-3 .u-list-1 {
@@ -1692,6 +1708,11 @@
 
   .u-section-3 .u-image-1 {
     min-height: 268px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-3 .u-list-1 {
